@@ -1,0 +1,70 @@
+# Node.js
+node_modules/
+npm-debug.log
+*.log
+
+# Dependencies
+# You might not need all of these, depending on your project setup
+# Adjust this list based on your project's needs
+# You can also include specific dependencies by name, e.g. /node_modules/package-name/
+/package-lock.json
+/yarn.lock
+/yarn-error.log
+/bower_components/
+/jspm_packages/
+
+# Build output
+/dist/
+/build/
+/out/
+/.nuxt/
+/nuxt/
+/.next/
+/public/
+/.cache/
+/.parcel-cache/
+/.webpack/
+
+# Environment
+.env
+.env.*
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Editor/IDE specific files
+*.idea/
+*.vscode/
+*.sublime*
+*.sublime-*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.bak
+*.cache
+*.csproj
+*.dotSettings
+*.user
+*.sln.DotSettings.user
+*.suo.user
+*.sdf
+*.opensdf
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Compiled binary addons (used by Node.js modules like node-sass)
+/build/Release
+/compiled/
